@@ -2,17 +2,14 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-      "acrName": {
-        "value": "joseph"
+      "keyVaultName": {
+        "value": "joseph-vault"
       },
       "location": {
         "value": "Qatar Central"
       },
-        "appServicePlanName": {
-            "value": "JosephAppServicePlan"
-        },
-        "keyVaultName": {
-          "value": "joseph-vault"
-        }
+      "acrName": {
+        "value": "joseph"
+      }
     }
-}
+  }
